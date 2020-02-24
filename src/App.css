@@ -1,9 +1,11 @@
 .App {
   text-align: center;
+  color: #FFF;
 }
 
 .container{
-	max-width: 1080px;
+	max-width: 920px;
+	height: 900px;
 	width: 90%;
 	margin: auto;
 }
@@ -33,8 +35,3 @@
 	animation: float 6s ease-in-out infinite;
 }
 
-.sec-1 {
-	border: 2px solid rgb(201, 201, 201);
-
-
-}

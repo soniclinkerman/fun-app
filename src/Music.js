@@ -5,7 +5,7 @@ function Music(props) {
         <div>
             <h5>Music of the day ^-^</h5>
             <p>{props.song}</p>
-             <iframe width="250" height="250" src="https://www.youtube.com/embed/snphzO9UFJM" frameborder="0" allowfullscreen></iframe>
+             <iframe width="250" height="250" src="https://www.youtube.com/embed/0t9JpOJGwlY" frameborder="0" allowfullscreen></iframe>
         </div>
     )
 }

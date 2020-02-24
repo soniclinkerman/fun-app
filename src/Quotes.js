@@ -29,7 +29,7 @@ class Quotes extends Component {
         return(
             <div>
               {this.state.number === y ?
-               <p><b>Quote of the day:</b> {y}</p> :
+               <p><b>Quote of the day:</b> <i>{y}</i></p> :
                <button onClick={this.handleClick} className="btn quote-btn">Quote of the Day</button> 
               }
         
