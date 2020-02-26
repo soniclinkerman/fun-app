@@ -3,7 +3,8 @@ import Clock from "./Clock"
 import "./Quotes.css"
 const quotes = [
     "Simply put, what you did got you here, and if you apply the same methods again you will likely get the same result again.",
-    "Never be in competion with anyone but your 'yesterday' self."
+    "Never be in competion with anyone but your 'yesterday' self.",
+    "There's a lesson behind every mistake you make. You just need to find it"
 ]
 
 var x = Math.floor(Math.random() * quotes.length)
