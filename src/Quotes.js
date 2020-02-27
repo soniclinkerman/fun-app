@@ -4,7 +4,8 @@ import "./Quotes.css"
 const quotes = [
     "Simply put, what you did got you here, and if you apply the same methods again you will likely get the same result again.",
     "Never be in competion with anyone but your 'yesterday' self.",
-    "There's a lesson behind every mistake you make. You just need to find it"
+    "There's a lesson behind every mistake you make. You just need to find it",
+    "Do the most hardest task of your day the moment you wake up. You will feel a sense of accomplishment once you do!"
 ]
 
 var x = Math.floor(Math.random() * quotes.length)
