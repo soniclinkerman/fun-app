@@ -6,18 +6,25 @@ class Updates extends Component{
 
         let updates = [
             {
-                date: "2/28/20",
+                date: "2/27/20",
                 description: "Added update machine"
+            },
+
+            {
+                date: "2/28/20",
+                description: "Added refresh button"
             },
         ]
         
-        alert(updates[0].date + ": " + updates[0].description  + "\r\n")
+        alert(updates[0].date + ": " + updates[0].description  + "\r\n" +
+              updates[1].date + ": " + updates[1].description  + "\r\n")
     }
  
     render(){
         return(
             <div>
-                <button onMouseEnter={this.NewUpdates} className="btn announcement-btn">Announcements</button>
+                <button onClick
+                ={this.NewUpdates} className="btn announcement-btn">Announcements</button>
 
             </div>
         )
