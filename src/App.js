@@ -8,6 +8,8 @@ import Quotes from './Quotes';
 import Logo from "./Ak Logo.jpeg"
 import Music from './Music';
 import musicFiles from "./musicfiles.js"
+import Test from './Test';
+import Updates from './Updates';
 
 function App() {
   // var x = musicFiles.map(function(music) {
@@ -34,6 +36,7 @@ function App() {
 
         <Quotes/>
         <Music />
+        <Updates/>
       </div>
     </div>
   );
