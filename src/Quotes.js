@@ -2,11 +2,11 @@ import React, {Component} from "react";
 import Clock from "./Clock"
 import "./Quotes.css"
 const quotes = [
-    "Simply put, what you did got you here, and if you apply the same methods again you will likely get the same result again.",
+    "Simply put, what you did got you here, and if you apply the same methods again, you will likely get the same results.",
     "Never be in competion with anyone but your 'yesterday' self.",
-    "There's a lesson behind every mistake you make. You just need to find it",
-    "Do the hardest task of your day the moment you wake up. You will feel a sense of accomplishment once you do!",
-    "Play is play. Work is work. When you put your 100% into each one your work and play will never be in vain."
+    "There's a lesson behind every mistake you make. You just need to find it.",
+    // "Do the hardest task of your day the moment you wake up. You will feel a sense of accomplishment once you do!",
+    "Play is play. Work is work. When you put your 100% into each one, your work and play will never be in vain."
 ]
 
 var x = Math.floor(Math.random() * quotes.length)
